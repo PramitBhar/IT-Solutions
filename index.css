@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Container Width */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Content Css */
+
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.default-logo{
+    display: block;
+}
+
+#solid-bars{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Main Section Content CSS */
+main{
+    padding-top: 100px;
+}
+
+.main-bg-and-text{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 150px; */
+    justify-content: space-between;
+
+}
+.main-hero-section{
+    position: relative;
+}
+/* .background-div{
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 45%, rgba(208,228,244,1) 50%); 
+} */
+.main-hero-section::after{
+    content: '';
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+    width: 56%;
+    background-color: #d0e4f4;
+    height: 300px;
+    z-index: -1;
+    margin-left: 440px;
+    vertical-align:middle;
+}
+.left-side-text-section{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.hero-heading{
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+
+
+.hero-text-paragraph{
+    width: 400px;
+    /* line-height: 20px; */
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+/* Learn More Button Css */
+.learn-more-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    border: 1px solid black;
+}
+
+.learn-more-btn:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.hero-text-paragraph2{
+    width: 400px;
+    /* line-height: 20px; */
+    font-size: 1.5rem;
+    margin-top: 150px;
+}
+/* Hero Image CSS */
+.right-side-img-section{
+    position: relative;
+    /* background: url(./assets/as.jpg) no-repeat center/cover; */
+    width: 50%;
+    /* padding-top: 20px; */
+    /* margin-right:70px; */
+    /* z-index: 50; */
+}
+.bg-div-1{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 350px;
+    width: 400px;
+    background-color: #d0e4f4;
+}
+
+.hero-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    padding-top: 80px;
+    padding-right: 70px;
+    justify-content: end;
+}
+.bg-img-div-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 350px;
+    transform: translate(-30%,20%);
+    background:url(./assets/u_150.png) repeat;
+}
+/* .right-side-img-section::before{
+    content: '';
+    position: absolute;
+    height: 375px;
+    width: 440px;
+    background-color: #d0e4f4;
+    top: 0;
+    right: 0;
+    transform: translate(15%,-20%);
+    z-index: -1;
+} */
+
+/* .right-side-img-section::after{
+    content: '';
+    position: absolute;
+    background: url(./assets/u_150.png) repeat;
+    height: 400px;
+    width: 400px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translate(-30%,20%);
+} */
+
+
+/* Provided Services Section CSS */
+
+.provided-services{
+    padding-top: 200px;
+}
+
+.services-details-and-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.handshake-img{
+    width: 715px;
+    height: 463px;
+    /* padding-left: 20px; */
+    object-fit: cover;
+
+    /* margin-bottom: 50px; */
+}
+.types-of-services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    bottom: 115px;
+    right: 0;
+}
+/* Provided Services Card CSS */
+.card-container{
+    padding: 30px;
+    background-color: red;
+}
+.left-side-flex-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-header{
+    margin-right: auto;
+}
+
+.card-paragraph{
+    padding-top: 20px;
+    width: 220px;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+.second-section-text-paragraph{
+    width: 400px;
+    /* line-height: 20px; */
+    font-size: 1.2rem;
+    margin-top: 250px;
+}
+
+
+/* Main Third Section */
+
+main .main-third-section{
+    background-color: #d0e4f4;
+    padding-top: 60px;
+}
+
+main .text-and-image{
+    
+}
+
+main .third-section-heading{
+    font-size: 4.5rem;
+    width: 800px;
+}
